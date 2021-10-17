@@ -1,0 +1,88 @@
+body{
+    margin: 0px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: lightgrey;
+
+}
+
+#main {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    background: white;
+    border: black solid 1px;
+    height:fit-content;
+    width: 75%;
+
+    border-radius: 2rem;
+    margin: 10rem 5rem;
+    overflow: hidden;
+}
+
+#commentContainer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    width: 100%;
+    height: 3rem;
+}
+
+#commentInput{
+    padding: 0.25rem 1rem;
+    margin-left: auto;
+    margin-right: 2rem;
+    height: 1rem;
+}
+#commentAddBtn{
+    margin-left: 2rem;
+    margin-right: auto;
+    height: 2rem;
+    
+}
+
+#commentList {
+    width: 100%;
+}
+
+.comment{
+    white-space: nowrap;
+    padding-top: 2rem;
+
+    background: lightblue;
+    border-bottom: 1px solid lightcoral;
+}
+.userImg {
+    display: inline-block;
+    width: 4rem;
+    border-radius: 50%;
+    /* float: left; */
+}
+
+.userName{
+    height: 1rem;
+    vertical-align: top;
+    
+}
+
+.divContainer {
+    display: inline-block;
+    vertical-align: top;
+}
+
+.commentText {
+    white-space: pre-wrap;
+    padding-right: 5rem;
+}
+
+.commentDeleteBtn {
+    display: block;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    margin-left: auto;
+    margin-right: auto;
+}
