@@ -1,0 +1,112 @@
+body{
+    margin: 0;
+    display: flex;
+}
+
+.lableInputContainer{
+    display: flex;
+}
+
+.lableContainer,
+.inputContainer{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+    height: 10rem;
+    padding: 1rem;
+}
+
+.adressTextContainer{
+    margin-top: 1rem;
+    padding: 0rem 1rem;
+    border-right: 1px solid lightgray;
+}
+.adressContainerNr2{
+    display: flex;
+    border-top: 1px solid lightgray;
+}
+
+.newContactContainer{
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+    align-items: center;
+}
+.contactListContainer{
+    display: flex;
+    flex: 2;
+    flex-direction: column;
+    align-items: center;
+}
+
+.userListContainer{
+    display: flex;
+    width: 80%;
+    flex-direction: column;
+}
+
+
+
+.userContainer {
+    display: flex;
+    flex-direction: row;
+    border: 1px solid gray;
+    border-radius: 5px;
+    position: relative;
+}
+
+
+.btnContainer{
+    margin-left: auto
+}
+
+.userImg,
+.mobileImg,
+.addressImg,
+.updateBtn,
+.deleteBtn{
+    display: inline-block;
+
+    width: 2rem;
+    height: 2rem;
+    
+    margin: 5px;
+
+    background-position: center; 
+    background-repeat: no-repeat; 
+    background-size: cover; 
+    border-radius: 50%;
+}
+
+.userImg{
+    background-image: url("https://cdn-icons-png.flaticon.com/512/149/149071.png");
+}
+
+.updateBtn{
+    background-image: url("https://as1.ftcdn.net/v2/jpg/00/73/27/96/1000_F_73279664_TPR8ihGB6e8K9BTXmASe21IaOLM8yWQI.jpg");
+}
+
+.deleteBtn{
+    background-image: url("https://cdn-icons-png.flaticon.com/512/148/148766.png");
+}
+
+.mobileImg{
+    background-image: url("https://i0.wp.com/www.icon0.com/wp-content/uploads/2021/03/stock-photo-mobile-icon-smartphone-icon-illustration-8337.jpg?fit=400%2C400&ssl=1");
+}
+
+.addressImg{
+    background-image: url("https://icons.iconarchive.com/icons/google/noto-emoji-travel-places/1024/42486-house-icon.png");
+}
+
+.userList div{
+    display: flex;
+    align-items: center;
+    padding: 5px;
+
+    font-family: Arial, Helvetica;
+}
+.userList :first-child{
+    font-weight: bold
+}
+
