@@ -6,6 +6,7 @@ let userStreet = document.getElementById("streetInput");
 let userNumber = document.getElementById("numberInput");
 let userCity = document.getElementById("cityInput");
 let userCountry = document.getElementById("countryInput");
+let textContainer = document.getElementsByClassName("textContainer")
 
 let contactListContainer = document.querySelector(".userListContainer");
 
@@ -239,10 +240,6 @@ function updateUser(id) {
     }
 
     if (Object.keys(changes).length == 0) {
-        deleteUser(id)
-
-        sendUpdateBtn.innerText = "Send";
-        sendUpdateBtn.addEventListener("click",sendNewUser);
         return
     }
 
